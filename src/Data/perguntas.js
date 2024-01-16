@@ -41,7 +41,7 @@ export const Perguntas  = [
 
 
     {
-    pergunta: 'Quem é o imperador que controla a Ilha dos Tritões?',
+    pergunta: 'Quem é o imperador que controlava a Ilha dos Tritões?',
     opcoesResposta:[
         {resposta:'Kaido', correta:false, alternativa:'A)'},
         {resposta:'Big Mom', correta:true, alternativa:'B)'},
