@@ -27,7 +27,7 @@ return (
 
 <div className='container'> 
     {showPontuacao ? (<div className='pontuacao'>
-        <span>Sua pontuação é {pontos} de {questions.length}</span></div>):(
+        <span className='textFinal'>Sua pontuação é {pontos} de {questions.length}</span></div>):(
     <>
     <div className='infoperguntas'>
         <div className='contagemPerguntas'>

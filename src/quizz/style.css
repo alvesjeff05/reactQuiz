@@ -1,5 +1,7 @@
 .container{
-    background-color: black;
+    background-image: url('../imagem/icones.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 500px;
     min-height: min-content;
     border-radius: 15px;
@@ -9,6 +11,10 @@
     align-items: center;
 }
 
+.textFinal{
+    color: black;
+ 
+}
 
 .infoperguntas{
     width: 100%;
@@ -20,14 +26,16 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 #title{
-    font-size: 100px;
+    font-size: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    position: absolute;
+    top: 0;
 }
 
 .contagemPerguntas{
@@ -43,6 +51,11 @@
 
 .pergunta{
     margin-bottom: 12px;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
 }
 
 .grupoResposta{
@@ -65,16 +78,17 @@ button{
     align-items: center;
     width: 100%;
     font-size: 16px;
-    background-color: #cc7d45;
+    background-color: #a77c3be0;
     border-radius: 8px;
     padding: 8px;
-    border: 3px solid #3e2f5b;
+    border: 3px solid black;
     cursor: pointer;
     margin: 0 12px 10px;
+    color: white;
 }
 
 button:hover{
-    background-color: #2b0f3b;
+    background-color: #FFBB64;
 }
 
 .pontuacao{
